@@ -80,6 +80,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 90px;
+    margin-bottom: 90px;
+    width: 600px;
 }
 
 img {
