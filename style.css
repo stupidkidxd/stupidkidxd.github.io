@@ -12,8 +12,8 @@ body {
 /* Position the "No" button absolutely within body */
 #noButton {
     position: absolute;
-    margin-left: 150px;
-    margin-top: 150px;
+    margin-left: 250px;
+    margin-top: 120px;
     transition: 0.5s;
     /* Smooth movement */
 }
@@ -30,9 +30,10 @@ body {
 #yesButton {
     position: absolute;
     margin-right: 150px;
-    margin-top: 150px;
+    margin-top: 120px;
     /* Smooth movement */
 }
+
 
 .header_text {
     font-family: cursive;
