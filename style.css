@@ -81,8 +81,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 180px;
     margin-bottom: 90px;
+    margin-top: 50px;
     width: 600px;
 }
 
