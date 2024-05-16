@@ -13,13 +13,14 @@ body {
 #noButton {
     position: absolute;
     margin-left: 150px;
+    margin-top: 150px;
     transition: 0.5s;
     /* Smooth movement */
 }
 .text {
     background: white;
     width: 900px;
-    height: 70px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +30,7 @@ body {
 #yesButton {
     position: absolute;
     margin-right: 150px;
+    margin-top: 150px;
     /* Smooth movement */
 }
 
