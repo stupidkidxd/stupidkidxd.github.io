@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Duo???</title>
+    <link rel="stylesheet" href="./style.css"">
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/51/d6/de/51d6def892f689d44a7ab1db6b090715.jpg">
+  
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1 class="header_text">Ты пойдешь играть со мной в валорант??</h1>
+        </div>
+        <div class="gif_container">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3MxMnN3ZzdycWo3amJnMXRyeW1qMnhiMHhvcmVpZzA5d3BybnVnZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KGdKKipVBu9vO5hKkb/giphy.webp" alt="cutedif">
+        </div>
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Да</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()">Нет</button>
+            <script>
+                function nextPage() {
+                    window.location.href = "yes.html";
+                }
+                function moveButton() {
+                    let x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+                    let y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                    document.getElementById('noButton').style.left = `${x}px`;
+                    document.getElementById('noButton').style.top = `${y}px`;
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>
