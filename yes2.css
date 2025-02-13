@@ -1,0 +1,55 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #F8C8DC; /* Цвет контейнера изменен на deeppink */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2em;
+    color: white; /* Белый цвет для заголовка */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gif-container {
+    margin-bottom: 20px;
+}
+
+.gif {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.message {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff; /* Белый цвет текста */
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.heart {
+    font-size: 2.5em;
+    color: #ff2d95;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>o.o</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="text" >
+            <h1 class = "header_text">Пойдем слушать вайперов 48 часов?</h1>
+        </div>
+        <div class="gif_container">
+            <img src="https://sun9-77.userapi.com/s/v1/ig2/8UQSV05yjrR9q8amyioFWgEd7OL_JY1gpZ1tiADMGyqzZUt0C5mvtB9DpNfP9qRafIX9Gwu0IimVHSZYqO7IN27G.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,871x871&from=bu&u=Iu9jPCRvJYhDpZkBOXK86tb1IyVvFvmvPNkSIWK-uQA&cs=807x807" alt="Cute animated illustration">
+        </div> 
+        <div class = "buttons">
+            <button class="btn" id = "yesButton" onclick="nextPage()">Да</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()">Нет</button>
+            <script>
+                function nextPage() {
+                    window.location.href = "yes.html";
+                }
+
+                function moveButton() {
+                    let x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+                    let y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                    document.getElementById('noButton').style.left = `${x}px`;
+                    document.getElementById('noButton').style.top = `${y}px`; 
+                }
+            </script>
+        </div>
+    </div>
+
+</body>
+</html>
